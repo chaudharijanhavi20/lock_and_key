@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url('image 1.png')  center center no-repeat ;
+  background-size: cover;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat;*/
+}
+
+.itemset{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+margin: auto;
+}
+.container{
+    position: absolute;
+    height: 88%;
+    width: 1260px;
+    left: 107px;
+    top: 67px;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+.itemset div{
+    padding: 1rem;
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+    Width:69px;
+Height:54px;
+border: solid 0.2rem white;
+}
+.pseudoimage{
+    margin: 50px;
+width: 801px;
+height: 375px;
+display: flex ;
+justify-content: center;
+align-items: center;
+background-color: white;
+}
+.inner{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputans{
+    position: absolute;
+width: 400px;
+height: 69px;
+left: 450px;
+
+
+}
+.inputans input{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    border-radius: 25px;
+    background-color:#d4af37;
+    
+}
+.pseudoimage img{
+    display: none;
+}
+#itemimg1{
+    display: block;
+}
+.pseudoimage img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    html{
+        font-size: 10px;
+        height: 100vh;
+        background:url("image 1.png") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    }
+    
+    .container{
+        position: absolute;
+        height: 88%;
+        width: 22rem;
+        top: 67px;
+        left: 0px;
+        border-radius: 15px;
+        background-color:rgba(0, 0, 0, 0.5);
+        padding: 2rem;
+    }
+    .inputans{
+        position: absolute;
+    width: 20rem;
+    height: 60px;
+    left: 0rem;
+    background: #D9D9D9;
+
+    
+    }
+    .pseudoimage{
+        margin: 5rem 0rem;
+        width: 30rem;
+        left: 0px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    }
+    .itemset div{
+        padding: 1rem;
+        background-color: grey;
+        font-weight: bold;
+        color: white;
+        Width:6.9rem;
+    Height:5.4rem;
+    border: solid 0.2rem white;
+    }
+  }
